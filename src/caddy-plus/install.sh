@@ -13,10 +13,4 @@ sudo apt install xcaddy
 
 # Build caddy using xcaddy
 xcaddy build --with github.com/greenpau/caddy-security
-
-# Move caddy to bin
-mkdir -p ~/bin
-mv caddy ~/bin
-
-# Ensure bin is on path
-# [[ ":$PATH:" != *":${HOME}/bin:"* ]] && PATH="${HOME}/bin:${PATH}"
+mv caddy /usr/local/bin/
