@@ -1,7 +1,7 @@
 {
     "name": "Caddy Plus",
     "id": "caddy-plus",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Caddy plus additional extensions",
     "options": {}
 }
