@@ -19,4 +19,4 @@ mkdir -p ~/bin
 mv caddy ~/bin
 
 # Ensure bin is on path
-[[ ":$PATH:" != *":${HOME}/bin:"* ]] && PATH="${HOME}/bin:${PATH}"
+# [[ ":$PATH:" != *":${HOME}/bin:"* ]] && PATH="${HOME}/bin:${PATH}"
