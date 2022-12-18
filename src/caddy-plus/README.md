@@ -1,14 +1,24 @@
 
 # Caddy Plus (caddy-plus)
 
-Caddy plus additional extensions.
+Caddy plus additional extensions
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/stever/devcontainers-features/caddy-plus:1": {
-        "version": "latest"
-    }
+    "ghcr.io/stever/devcontainers-features/caddy-plus:1": {}
 }
 ```
+
+## Options
+
+| Options Id | Description | Type | Default Value |
+|-----|-----|-----|-----|
+
+
+
+
+---
+
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/stever/devcontainers-features/blob/main/src/caddy-plus/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
