@@ -1,0 +1,7 @@
+{
+    "name": "Hasura CLI",
+    "id": "hasura-cli",
+    "version": "1.0.0",
+    "description": "The Hasura CLI is a command-line tool you can use to manage your Hasura instances.",
+    "options": {}
+}
