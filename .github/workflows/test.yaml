@@ -14,10 +14,11 @@ jobs:
       matrix:
         features:
           - caddy-plus
+          - hasura-cli
         baseImage:
-          # - debian:latest
-          # - ubuntu:latest
-          # - mcr.microsoft.com/devcontainers/base:ubuntu
+          - debian:latest
+          - ubuntu:latest
+          - mcr.microsoft.com/devcontainers/base:ubuntu
           - mcr.microsoft.com/devcontainers/universal:2-linux
     steps:
       - uses: actions/checkout@v3
